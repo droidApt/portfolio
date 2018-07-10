@@ -12,8 +12,9 @@ export default class ContactPage extends React.Component {
           <div id="contactHeader"><div>Contact</div></div>
           <div id="contactContainer">
             <div id="contactLinks">
-              <a href="https://www.facebook.com/aptArtista/"><img src="https://sguru.org/wp-content/uploads/2018/02/facebook-logo-grey.png" alt="facebook.com" width="50"/></a>
-              <a href="https://www.linkedin.com/in/aptdroid/"><img src="https://www.iconsdb.com/icons/preview/dim-gray/linkedin-3-xxl.png" alt="linkedin" width="50"/></a>
+              <a href="https://www.facebook.com/aptArtista/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="Facebook" width="50"/></a>
+              <a href="https://www.linkedin.com/in/aptdroid/"><img src="http://www.theredbrickroad.com/wp-content/uploads/2017/05/linkedin-logo-copy.png" alt="Linkedin" width="50"/></a>
+              <a href="https://www.deviantart.com/aptdroid/gallery/"><img src="https://www.shareicon.net/data/128x128/2016/04/12/748660_logo_512x512.png" alt="DeviantArt" width="50"/></a>
             </div>
             <div id="contactInfo">
               <label><span>&#9990;</span> +91 95352-49800</label>

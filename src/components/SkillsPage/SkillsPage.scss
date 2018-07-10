@@ -9,9 +9,11 @@
     display: flex;
     justify-content: center;
     div{
+      color: red;
       padding: 60px;
       padding-bottom: 10px;
       border-bottom: 1px solid #999;
+      text-shadow: 2px 2px 4px #444;
     }
   }
   #skillSupportingLine{
@@ -19,7 +21,6 @@
     padding-bottom: 20px;
     text-align: center;
     color: #555;
-    font-weight: bolder;
     flex-wrap: wrap;
   }
 
@@ -31,28 +32,47 @@
       flex: 1;
       margin: 5px;
       border: 1px solid rgb(200,200,200);
-      border-radius: 2px;
-      box-shadow: 0 0 5px rgba(0,0,0, 0.3);
+      border-top: 0;
+      border-left: 0;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px rgba(0,0,0, 0.3);
 
       .skillTopic
       {
         display: block;
         text-align: center;
-        padding-top: 10px;
+        padding: 10px 0;
         margin: 2px;
-        border-bottom: 1px solid #999;
+        // border-bottom: 1px solid #999;
         font-weight: bold;
-        }
-        ul {
-          list-style: none;
-          list-decoration: none;
-          padding: 0;
-          margin: 0;
-
-          li {
-            padding: 10px;
-          }
+        color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
       }
+
+      ul {
+        list-style: none;
+        list-decoration: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          padding: 10px;
+          color: #555;
+        }
+      }
+    }
+    #webTechs{
+      background-color: #d20;
+    }
+    #dbs{
+      background-color: #4d4;
+    }
+    #platforms{
+      background-color: #09d;
+    }
+    #versionings{
+      background-color: #d91;
     }
   }
 }

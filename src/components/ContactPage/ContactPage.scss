@@ -1,5 +1,5 @@
 #contactSlide{
-  color: #999;
+  color: #444;
   font-size: 20px;
 
   #contactHeader{
@@ -9,6 +9,8 @@
       padding: 60px;
       padding-bottom: 10px;
       border-bottom: 1px solid #999;
+      color: #080;
+      text-shadow: 2px 2px 4px #444;
     }
   }
   #contactContainer {
@@ -32,6 +34,13 @@
     div#contactInfo{
       text-align: left;
       line-height: 1.6;
+
+      label{
+        span{
+          font-weight: bolder;
+          color: #080;
+        }
+      }
     }
 
     div#contactLinks{

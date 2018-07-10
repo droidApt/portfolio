@@ -13,13 +13,13 @@ export default class SkillsPage extends React.Component {
           <div id="skillSupportingLine">
           I apply human factor principles to design products that are efficient, effective and satisfying at every touch point.
           My process starts with understanding business needs, listening to user stories, inventorying content and developing a UI Architecture for it.
-          I use wireframes and low fidelity prototypes to test ideas for the front-end.
-          <br/>
+          I use wireframes to test ideas for the front-end.
+          <br/><br/>
           With my rich technology skill set & the passion to learn more for self growth, I have worked with Architects, brainstorming over the possible alternative workflows & the available technologies in order to provide feasible solutions.
           </div>
           <div id="skillLists">
           <div>
-            <span className="skillTopic">Web Deveopment Technologies</span>
+            <span className="skillTopic" id="webTechs">Web Deveopment Technologies</span>
             <ul>
             <li>React.JS</li>
             <li>Node.JS</li>
@@ -31,7 +31,7 @@ export default class SkillsPage extends React.Component {
             </ul>
           </div>
           <div>
-            <span className="skillTopic">Database & Servers</span>
+            <span className="skillTopic" id="dbs">Database & Servers</span>
             <ul>
             <li>SQL</li>
             <li>MySQL</li>
@@ -39,7 +39,7 @@ export default class SkillsPage extends React.Component {
             </ul>
           </div>
           <div>
-            <span className="skillTopic">OS & Platforms</span>
+            <span className="skillTopic" id="platforms">OS & Platforms</span>
             <ul>
             <li>RHEL 6</li>
             <li>Amazon Web Services (AWS) </li>
@@ -48,7 +48,7 @@ export default class SkillsPage extends React.Component {
             </ul>
           </div>
           <div>
-            <span className="skillTopic">Version Control</span>
+            <span className="skillTopic" id="versionings">Version Control</span>
             <ul>
             <li>GitHub</li>
             </ul>
