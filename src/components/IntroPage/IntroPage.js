@@ -19,6 +19,7 @@ export default class IntroPage extends React.Component {
             </div>
             <span>Scroll to continue &darr;</span>
           </div>
+          <div id="imgCopyright">Image taken from: "https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/166593.jpg" </div>
         </div>
       );
   }

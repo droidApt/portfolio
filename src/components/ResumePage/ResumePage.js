@@ -13,13 +13,13 @@ export default class ResumePage extends React.Component {
 
           <div id="resumeHistory">
             <div id="leftPane">
-              <span className="infoHeader">Work</span>
+              <span id="workHeader" className="infoHeader">Work</span>
               <ul>
 
               </ul>
             </div>
             <div id="rightPane">
-              <span className="infoHeader">Education</span>
+              <span id="educationHeader" className="infoHeader">Education</span>
               <ul>
 
               </ul>

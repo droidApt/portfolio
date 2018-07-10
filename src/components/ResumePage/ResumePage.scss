@@ -56,18 +56,24 @@
         text-align: center;
         padding-top: 10px;
         margin: 2px;
-        // border-bottom: 1px solid #999;
         font-weight: bold;
-        }
-        ul {
-          list-style: none;
-          list-decoration: none;
-          padding: 0;
-          margin: 0;
+      }
+      #workHeader{
+        color: #4a4;
+      }
+      #educationHeader{
+        color: #d91;
+      }
 
-          li {
-            padding: 10px;
-          }
+      ul {
+        list-style: none;
+        list-decoration: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          padding: 10px;
+        }
       }
     }
   }
