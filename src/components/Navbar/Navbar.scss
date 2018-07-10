@@ -15,48 +15,49 @@ nav {
     #name {
         float: left;
         text-align: center;
-        color: white;
+        color: black;
         background-color: #111;
         margin-left: 20px;
+        padding: 14px 16px;
+
+        a{
+
+          text-shadow: 2px 2px 4px #fff, -2px 2px 4px #fff, -2px -2px 4px #fff, 2px -2px 4px #fff, 0px 2px 4px #fff, 0px 0px 4px #fff, 2px 0px 4px #fff, -2px 0px 4px #fff, 0px -2px 4px #fff;
+        }
     }
 
     #navItems{
       float: right;
       margin-right: 10px;
-    }
 
-    a {
-      display: inline-block;
-      color: rgb(200, 200, 200);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
+      a {
+        display: inline-block;
+        color: rgb(200, 200, 200);
+        text-align: center;
+        padding: 14px 16px;
 
-      &:after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 2px;
-        background: rgb(0, 200, 0);
-        transition: width 0.3s;
-      }
+        &:after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 2px;
+          background: rgb(0, 200, 0);
+          transition: width 0.3s;
+        }
 
-      &:hover {
-        background-color: #111;
-        color: #fff;
-        transition: all 0.6s;
-      }
+        &:hover {
+          background-color: #111;
+          color: #fff;
+          transition: all 0.6s;
+        }
 
-      &:hover:after {
-        width: 100%;
-        height: 1px;
-        background: rgb(0, 200, 0);
-        transition: width 0.3s;
-        animation: next-arrow 2s infinite;
+        &:hover:after {
+          width: 100%;
+          height: 1px;
+          background: rgb(0, 200, 0);
+          transition: width 0.3s;
+          animation: next-arrow 2s infinite;
       }
     }
-}
-
-.active {
-  background-color: #111;
+  }
 }
