@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "deploy": "surge --project dist --domain https://apt-droid.surge.sh/"
   },
-  "author": "Brad Traversy",
+  "author": "Apurv Tiwari",
   "license": "MIT",
   "dependencies": {
     "react": "^16.4.1",
